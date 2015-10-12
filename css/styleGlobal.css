@@ -1,0 +1,11 @@
+body {
+  border: 1px solid #f00;
+}
+header {
+  margin: 0 auto;
+  background: #009db5 repeat-x;
+}
+header img {
+  margin: 0 auto;
+  border: 1px solid #000;
+}
