@@ -1,2 +1,0 @@
-# sse
-Sitio web SSE
