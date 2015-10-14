@@ -1,0 +1,146 @@
+@import 'menu/styles.css';
+.cell-offset-1 {
+  width: 15%;
+}
+.cell-offset-2 {
+  width: 32%;
+}
+.cell-offset-3 {
+  width: 49%;
+}
+.cell-offset-4 {
+  width: 66%;
+}
+.cell-offset-5 {
+  width: 83%;
+}
+.cell-offset-6 {
+  width: 100%;
+}
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+#cssmenu {
+  position: relative;
+  z-index: 100;
+}
+header {
+  background: #009db5;
+  width: 70%;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+}
+header .imgheader {
+  padding: 0;
+  height: 0 auto;
+  background: #009db5 url("../img/encabezado.jpg") no-repeat center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 120px;
+}
+.grid,
+.row,
+[class*='cell-'] {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.grid {
+  margin: 0 auto;
+  overflow: hidden;
+  width: 100%;
+  margin-top: 2%;
+  width: 70% !important;
+}
+.row {
+  max-width: auto;
+  overflow: hidden;
+  margin-bottom: 0.5%;
+  margin-top: 0.5%;
+}
+.row:last-child {
+  margin-bottom: 0;
+}
+[class*='cell-'] {
+  float: left;
+  margin-left: 2%;
+  text-align: center;
+}
+[class*='cell-']:first-child {
+  margin-left: 0;
+}
+.cell-des-1 {
+  width: 15%;
+}
+.cell-des-2 {
+  width: 32%;
+}
+.cell-des-3 {
+  width: 49%;
+}
+.cell-des-4 {
+  width: 66%;
+}
+.cell-des-5 {
+  width: 83%;
+}
+.cell-des-6 {
+  width: 100%;
+}
+@media only screen and (max-width: 400px) {
+  header {
+    background: #009db5;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+  }
+  header .imgheader {
+    padding: 0;
+    height: 0 auto;
+    background: #009db5 url("../img/encabezado.jpg") no-repeat center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100px;
+  }
+  .grid,
+  .row,
+  [class*='cell-'] {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  .grid {
+    margin: 0 auto;
+    overflow: hidden;
+    width: 100%;
+    margin-top: 2%;
+    width: 100% !important;
+  }
+  .row {
+    max-width: auto;
+    overflow: hidden;
+    margin-bottom: 0.5%;
+    margin-top: 0.5%;
+  }
+  .row:last-child {
+    margin-bottom: 0;
+  }
+  [class*='cell-'] {
+    float: left;
+    margin-left: 2%;
+    text-align: center;
+  }
+  [class*='cell-']:first-child {
+    margin-left: 0;
+  }
+  .cell-mobile-1 {
+    width: 100%;
+  }
+}
